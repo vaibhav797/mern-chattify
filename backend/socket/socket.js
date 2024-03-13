@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
 	cors: {
-		origin: ["https://mern-chattify-nwbgfzjd9-kapoorvaibhav0707-gmailcom.vercel.app/"],
+		origin: ["http://localhost:3000"],
 		methods: ["GET", "POST"],
 	},
 });
