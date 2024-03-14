@@ -1,37 +1,48 @@
-# MERN Stack Project: Build and Deploy a Real Time Chat App | JWT, Socket.io
 
-![Demo App](https://i.ibb.co/gFSMzKN/1.png)
+# Chattify (Realtime Private Chat App)
 
-[Video Tutorial on Youtube](https://youtu.be/HwCqsOis894)
 
-Some Features:
 
--   🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
--   🎃 Authentication && Authorization with JWT
--   👾 Real-time messaging with Socket.io
--   🚀 Online user status (Socket.io and React Context)
--   👌 Global state management with Zustand
--   🐞 Error handling both on the server and on the client
--   ⭐ At the end Deployment like a pro for FREE!
--   ⏳ And much more!
+A Web Application which ease the communication between two parties, by provinding them a realtime private chatting environment.
 
-### Setup .env file
 
-```js
-PORT=...
-MONGO_DB_URI=...
-JWT_SECRET=...
-NODE_ENV=...
-```
+## Live Demo
 
-### Build the app
+<table>
+  
+  <tr>
+    <td><img src="./assets/login.png" width=450 height=200></td>
+    <td><img src="./assets/signup.png" width=450 height=200></td>
+  </tr>
+  <tr>
+    <td><img src="./assets/home.png" width=450 height=200></td>
+    <td><img src="./assets/chat.png" width=450 height=200></td>
+  </tr>
+  <tr>
+    <td><img src="./assets/online_status.png" width=450 height=200></td>
+  </tr>
+  
+ </table>
 
-```shell
-npm run build
-```
+Live Website: [Chattify](https://chattify-6u3n.onrender.com)
 
-### Start the app
 
-```shell
-npm start
-```
+
+## Used Libraries
+- `react-js`
+- `tailwind css`
+- `node-js`
+- `express-js`
+- `mongoDB`
+- `socket.io`
+- `jwt`
+
+
+
+## Features
+
+- Realtime Private Chat.
+- Create or login to your account to start a conversation.
+- Can search a user to start new conversation.
+- Shows online status of users.
+
